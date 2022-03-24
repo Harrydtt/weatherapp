@@ -42,7 +42,7 @@ dependencies:
   google_fonts: ^2.3.1
   google_maps_flutter: ^2.1.2
   http: ^0.13.4
-  hydrated_bloc: ^8.0.0
+  hydrated_bloc: ^8.1.0
   json_annotation: ^4.4.0
   like_button: ^2.0.4
   location: ^4.3.0
@@ -74,17 +74,15 @@ dev_dependencies:
 flutter:
   assets:
     - assets/theme_images/
-    - assets/theme_images/day_clear.jpg
-    - assets/theme_images/day_cloudy.jpg
-    - assets/theme_images/day_rain.jpg
-    - assets/theme_images/day_snow.jpg
-    - assets/theme_images/day_thunderstorm.jpg
-    - assets/theme_images/night_clear.jpg
-    - assets/theme_images/night_cloudy.jpg
-    - assets/theme_images/night_rain.jpg
-    - assets/theme_images/night_snow.jpg
-    - assets/theme_images/night_thunderstorm.jpg
-    - assets/theme_images/default.jpg
+    - assets/ads_images_test/
+    - assets/ads_images_test/explore/
+    - assets/ads_images_test/hanoi/
+    - assets/ads_images_test/sapa_jade_hill_resort/
+    - assets/ads_images_test/topas/
+    - assets/navigation_bar_icons/
+    - assets/other_icons/
+    - assets/services_icons/
+    - assets/weather_icons/
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in

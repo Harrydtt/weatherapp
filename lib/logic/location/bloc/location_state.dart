@@ -3,7 +3,7 @@ part of 'location_bloc.dart';
 class LocationState extends Equatable {
   final LocationData locationData;
 
-  LocationState({
+  const LocationState({
     required this.locationData,
   });
 
@@ -12,19 +12,19 @@ class LocationState extends Equatable {
 }
 
 class LocationInitialState extends LocationState {
-  LocationInitialState({required LocationData locationData})
+  const LocationInitialState({required LocationData locationData})
       : super(locationData: locationData);
 }
 
 class LocationLoadingState extends LocationState {
-  LocationLoadingState({required LocationData locationData})
+  const LocationLoadingState({required LocationData locationData})
       : super(locationData: locationData);
 }
 
 class LocationLoadSuccessState extends LocationState {
-  final LocationData locationData;
+  // final LocationData locationData;
 
-  LocationLoadSuccessState({
-    required this.locationData,
+  const LocationLoadSuccessState({
+    required locationData,
   }) : super(locationData: locationData);
 }
